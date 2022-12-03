@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0)
-project(polygcd03)
-
-add_executable(polygcd03.exe gcd.cpp)
+cmake_minimum_required(VERSION 3.16)
+project(gcd03)
+set(CMAKE_CXX_STANDART 14)
+add_executable(gcd03.exe gcd.cpp)
